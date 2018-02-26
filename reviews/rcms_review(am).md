@@ -4,17 +4,18 @@
 | [Manage registration](#manage-registration)                    | fail        | success     | fail        |
 | [Register](#register)                               | fail        | fail        | fail        |
 | [Build agenda](#build-agenda)                           | success     | success     | success     |
-| Submit talks                           | fail        | fail        | fail        |
-| Manage attendees                       | in progress | in progress | in progress |
-| Manage sponsors                        | in progress | in progress | fail        |
-| Manage speaker submission              | in progress | in progress | in progress |
-| Setup session submission               | fail        | fail        | fail        |
-| Setup tickets                          | success     | fail        | fail        |
-| Configure conference                   | success     | success     | success    |
-| Customise conference content           | success     | fail        | fail        |
-| Create a new conference                | success     | success     | success     |
-| Create and brand a conference template | success     | fail        | fail        |
-| Create user/conference account         | success     | success     | success     |
+| [Submit talks](#submit-talks)                           | fail        | fail        | fail        |
+| [Manage attendees](#manage-attendees)                       | in progress | in progress | in progress |
+| [Manage sponsors](#manage-sponsors)                        | in progress | in progress | fail        |
+| [Manage speaker submission](#manage-speaker-submission)              | in progress | in progress | in progress |
+| [Setup session submission](#setup-session-submission)              | fail        | fail        | fail        |
+| [Setup tickets](#setup-tickets)                          | success     | fail        | fail        |
+| [Configure conference](#configure-conference)                   | success     | success     | success    |
+| [Customise conference content](#customise-conference-content)           | success     | fail        | fail        |
+| [Create a new conference](#create-a-new-conference)
+| success     | success     | success     |
+| [Create and brand a conference template](#create-and-brand-a-conference-template) | success     | fail        | fail        |
+| [Create user/conference accoun](#create-user/conference-account)         | success     | success     | success     |
 
 
 With 3 tasks still pending, Odoo has had the most successful evaluations of critical tasks, with osem and then oconf having fewer successes.
@@ -63,30 +64,39 @@ It looks like (limited) success was had with each system.
 
 - TODO: @amy can you see if there's options we missed that would facilitate a better experience on each of these systems?
 ## Submit talks
+Issues 37,36,35
+### Comments from evaluator [@Tvede](https://github.com/tvede)
 **Odoo** - Don't know how to create an account?
  **Osem** - I could register for the conference.  
  I couldn't generate a pdf with my registration details.
  I can't figure out how to submit a talk..
  **Oconf** - I was able to sign-in/login on the oconf site using my google account (but not by other means??)
 I coundn't submit a session proposal.
-*(issues 37,36,35 [@Tvede](https://github.com/tvede))*
 ## Manage attendees
+Issues 34,33,32
+### Comments from evaluato r@juliejosse
 **Odoo** *IN PROGRESS- @juliejosse*
 **Osem** - *IN PROGRESS- @juliejosse*
 **Oconf** - *IN PROGRESS- @juliejosse*
-*(issues 34,33,32 @juliejosse)*
 ## Manage sponsors
+Issues 31,30,29 
+### Comments from evaluato r@juliejosse
 **Odoo** *IN PROGRESS- @juliejosse*
 **Osem** - *IN PROGRESS- @juliejosse*
 **Oconf** - For now, I have a message: "something went wrong..."
-*(issues 31,30,29 @juliejosse)*
 ## Manage speaker submission
+Issues 28,27,26
+### Comments from evaluato [@thothorn](https://github.com/thothorn)
 **Odoo** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
 **Osem** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
 **Oconf** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
-*(Issues 28,27,26 - [@thothorn](https://github.com/thothorn))*
-*Note: [@thothorn](https://github.com/thothorn) had emailed and is confused on what the tasks are asking him to do*
+
+### Notes / synopsis
+[@thothorn](https://github.com/thothorn) had emailed and is confused on what the tasks are asking him to do
+
 ## Setup session submission
+Issues 25,24,23
+### Comments from evaluator [@tuxette](https://github.com/tuxette)
 **Odoo** - I haven't seen anything about paper submission in this system...
 **Osem** - I was able to define tracks and event types (almost: length has to be a multiple of at least 5 minutes which can be a problem for lightning talks?)  
 but  I was not able to configure CFP. I do not have the proper rights it seems (because it worked well on OSEM Demo).
@@ -99,8 +109,9 @@ In conclusion:
 (unsure) Configure CFP details (maybe I did it but I was not able to check: I did not find where it appears on the public website  
 (ðŸ‘Ž) Add CFP content like FAQs  
 (ðŸ‘Ž) Customise form (did not find where to do that)
-*(issues 25,24,23 - [@tuxette](https://github.com/tuxette)*
 ## Setup tickets
+Issues 22,21,20
+
 **Odoo** - ðŸ‘ Create tickets for the conference  
 ðŸ‘Ž Add a payment provider (I think that the functionality exists in "Sales". However, the framework is so different from a conference that I am not able to see where and how)  
 ðŸ‘ Customise registration form (to a certain extent: text questions are limited to Name, Email and Phone, Address, Country. Maybe affiliation (at least) would be useful). Also for multiple option tickets (ex: registration + gala), some parts of the form has to be filled twice...!  
@@ -112,8 +123,12 @@ In conclusion:
 Just adding to Nathalie's comments: I also tried to play around with the currencies. Inconvenient that once these are set they cannot be changed (apparently only deleted). Also you cannot mix currencies.
 **Oconf** - I found no information about how to configure a registration...
 *(issues 22,21,20 - [@tuxette](https://github.com/tuxette)*
-*Note: extra comment form **[@statibk](https://github.com/statibk)*
+
+### Notes / synopsis*Note: extra comment form [@statibk](https://github.com/statibk)
+
 ## Configure conference
+Issues 19,18,17
+### Comments from evaluator [@tuxette](https://github.com/tuxette), [statibk](https://github.com/statibk) & [hturner](https://github.com/hturner) had input also.
 **Odoo** - Can provide key info like dates and location  
 Can add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
 **Osem** I updated the name and date via the Basics dialog and the place/country via the Venue dialog. It is only possible to add video/photo for the venue from certain providers (YouTube, Instagram, Flickr, SlideShare, SpeakerDeck). Some aspects of the page seem to be hard-coded, e.g. "useR2019 has the most awesome program ever! See rock-star speakers cover the topics of" and "Don't miss out!".
@@ -123,9 +138,9 @@ I edited the contact email and Twitter account. You can't create a mailto link, 
 ðŸ‘ Modified a few things (dates, colors, etc.) which worked ok. *[statibk](https://github.com/statibk)*
 **Oconf** -  (unsure) Provide key info like dates and location (date is set properly but I am unsure if I am using well the system to describe the conference)  
 (thumbs up) Add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
-*(issues 19,18,17 *[@tuxette](https://github.com/tuxette)*)*
-*Note: [statibk](https://github.com/statibk) & [hturner](https://github.com/hturner) had input also.)*
 ## Customise conference content
+Issues 16,15,14
+### Comments from evaluator [@tuxette](https://github.com/tuxette) & [hturner](https://github.com/hturner)
 **Odoo** - ðŸ‘ Add content  
 ðŸ‘ Create additional pages / content locations  
 ðŸ‘ Tweak style if required (manageable but not super easy: I had problems to insert HTML code for instance)  *[@tuxette](https://github.com/tuxette)*
@@ -139,15 +154,17 @@ same comment than Heather: I am able to change basic things like conference date
 Can't create additional pages / content locations  
 Can't t weak style if required  
 I was not able to find anywhere where to customise the website look or content.
-*Issues 16,15,14 *[@tuxette](https://github.com/tuxette) & [hturner](https://github.com/hturner)*
 ## Create a new conference
+Issues 13,12,11
+### Comments from evaluator [hturner](https://github.com/hturner)
 **Odoo** - You can't create a conference template as such, but you can duplicate an event and edit it, which makes creation of new events much easier. So I both created a new conference from scratch and a conference based on a previous one, see [#10](https://github.com/lockedata/rcms/issues/10) for further comments.
 **Osem** - It is easy to create a new conference page, but it does not seem to be possible to create a conference template or to create a new conference based on an existing one.
 **Oconf** - I created a web page for useR! 2020 from scratch - it does not seem possible to use a template.
 As mentioned in  [#8](https://github.com/lockedata/rcms/issues/8)  the assumption is that this is a page for proposals, not a general conference website. You have to create a proposal deadline, but this does not appear anywhere on the page. The time zone of the deadline is unspecified. You have to create a Track and a Session type otherwise you get warnings (which get replicated if you reload the page!). The track "useR! 2020 Talks" is visible to the user in the legend of the schedule - which is empty at present. The tracks/sessions are not shown to the user on the proposal submission form. It's not clear how we might edit this form - the Snippets menu contains a "proposals\_form\_text" item which is not the same as the text on the proposal form.
 It is possible to use HTML in the editing text boxes, which gives some control over formatting. Perhaps this would allow logos to be added but this would require more systems admin to load the image files somewhere.
-*(issues 13,12,11 [hturner](https://github.com/hturner))*
 ## Create and brand a conference template
+issues 10,9,8
+### Comments from evaluator [hturner](https://github.com/hturner)
 **Odoo** - This interface was the least intuitive and the docs are hopeless, but this looks much more powerful.
 The website is designed as if it hosted by a company that runs events. So the simplest way to adopt it would be to have separate instances with satRdays as the company in one case and the R Foundation as the company in the other. However the website appears to be fully customizable, so with a bit more work we could create one website for all, with separate info pages for satRdays and R Foundation conferences (or each conference series). Events are tagged by organizer and type, so this would help to differentiate conference series if required.
 Currently satRdays is registered as a company in the settings. I could not add "useR! conferences" as a separate company. I could change satRdays to useR!, but I reverted this change as other content has already been added about satRdays. The company settings produce some default content on the webpage, e.g. overall site logo, but this is customisable.
@@ -159,8 +176,9 @@ The system does have a custom name for the whole site (R Conferences), so it wou
 I then tried to create a page for useR! 2019 as a child of the useR! page. This is possible, but then I can't navigate to the useR! 2019 page from the navigation bar! (It shows on the /events/ page).
 So I gave up on creating a set of events and created a stand-alone page for useR! 2020. (See issue  [#11](https://github.com/lockedata/rcms/issues/11)).
 Overall this is looking like an abstract handling site, not a conference management site.
-*(issues 10,9,8 [hturner](https://github.com/hturner))*
 ## Create user/conference account
+Issues 7,6,5
+### Comments from evaluator [hturner](https://github.com/hturner)
 **Odoo** - I set up an account for Natalie with access rights, so hopefully she has the editing permissions she needs. I could not send an invitation email though. (Also I accidentally hit "Inactive" when creating the record, so Natalie was not in the default User view - changing the filter to include inactive users fixed this and it was easy to activate the account). The access rights are applied to whole categories (e.g. "events", "website", "administration") so it's not clear that we could restrict access rights to a specific event. This might require a bit more effort to keep on top of, in particular revoking access for organizers of past conferences.
 **Osem** - I added Achim as a user and made him an admin via the checkbox in the user profile. This gives him the right to create a new conference, manage users and make other users admins. You can only see that he is an admin from the Edit user page (it doesn't seem to show as a Role).
 I added Nathalie as a user and made her an organizer of the "useR2019" conference. This should give her full access to that conference.
