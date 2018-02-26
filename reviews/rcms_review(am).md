@@ -12,8 +12,7 @@
 | [Setup tickets](#setup-tickets)                          | success     | fail        | fail        |
 | [Configure conference](#configure-conference)                   | success     | success     | success    |
 | [Customise conference content](#customise-conference-content)           | success     | fail        | fail        |
-| [Create a new conference](#create-a-new-conference)
-| success     | success     | success     |
+| [Create a new conference](#create-a-new-conference) | success     | success     | success     |
 | [Create and brand a conference template](#create-and-brand-a-conference-template) | success     | fail        | fail        |
 | [Create user/conference accoun](#create-user/conference-account)         | success     | success     | success     |
 
