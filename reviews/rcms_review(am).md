@@ -1,9 +1,9 @@
 # R CMS evaluation results 
 | Functionality                          | Odoo        | Osem        | Oconf       |
 |----------------------------------------|-------------|-------------|-------------|
-| Manage registration                    | fail        | success     | fail        |
-| Register                               | fail        | fail        | fail        |
-| Build agenda                           | success     | success     | success     |
+| [Manage registration](#manage-registration)                    | fail        | success     | fail        |
+| [Register](#register)                               | fail        | fail        | fail        |
+| [Build agenda](#build-agenda)                           | success     | success     | success     |
 | Submit talks                           | fail        | fail        | fail        |
 | Manage attendees                       | in progress | in progress | in progress |
 | Manage sponsors                        | in progress | in progress | fail        |
