@@ -16,6 +16,7 @@
 | [Create and brand a conference template](#create-and-brand-a-conference-template) | success     | fail        | fail        |
 | [Create user/conference accoun](#create-user/conference-account)         | success     | success     | success     |
 
+[@tvedebrink](#@tvedebrink) 
 
 With 3 tasks still pending, Odoo has had the most successful evaluations of critical tasks, with osem and then oconf having fewer successes.
 
