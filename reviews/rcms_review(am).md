@@ -73,19 +73,19 @@ Issues 37,36,35
 I coundn't submit a session proposal.
 ## Manage attendees
 Issues 34,33,32
-### Comments from evaluato r@juliejosse
+### Comments from evaluator @juliejosse
 **Odoo** *IN PROGRESS- @juliejosse*
 **Osem** - *IN PROGRESS- @juliejosse*
 **Oconf** - *IN PROGRESS- @juliejosse*
 ## Manage sponsors
 Issues 31,30,29 
-### Comments from evaluato r@juliejosse
+### Comments from evaluator @juliejosse
 **Odoo** *IN PROGRESS- @juliejosse*
 **Osem** - *IN PROGRESS- @juliejosse*
 **Oconf** - For now, I have a message: "something went wrong..."
 ## Manage speaker submission
 Issues 28,27,26
-### Comments from evaluato [@thothorn](https://github.com/thothorn)
+### Comments from evaluator [@thothorn](https://github.com/thothorn)
 **Odoo** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
 **Osem** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
 **Oconf** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
