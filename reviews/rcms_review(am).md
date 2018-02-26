@@ -21,7 +21,7 @@ With 3 tasks still pending, Odoo has had the most successful evaluations of crit
 
 ## Manage registration
 Issues 46,45,44
-### Comments from evaluator @[tvedebrink](https://github.com/tvedebrink)
+### Comments from evaluator [@tvedebrink](https://github.com/tvedebrink)
 - **Odoo**- I can't login on the satuRday pages.
 - **Osem**
     + Profile update went fine 
@@ -37,7 +37,7 @@ Registration management for attendees is important unless we were to rely on a m
 ## Register
 Issues 43,42,41 
 
-### Comments from evaluator @[tvedebrink](https://github.com/tvedebrink)
+### Comments from evaluator [@tvedebrink](https://github.com/tvedebrink)
 
 - **Odoo**- I can't login as I don't know how to sign up a new account
 - **Osem**
@@ -52,10 +52,16 @@ This is a serious blocker.
 - TODO: @amy please see if you can register for an event on oconf 
 
 ## Build agenda
-**Odoo**- I managed to create rooms, sessions and to assign speakers to sessions (not papers though: you can only have the session title and the speaker name but not the title of the talk). I was also able to define different types of sessions and to publish the program.
-**Osem** Once the events (actually an event = a talk or a session) have been defined and accepted it is easy to arrange them into a program. The main difficulty seems to be that I think we cannot really put session and talks into the program: you can define a session, in the "abstract" of the session write the details about the different talks or if you define the event at a talk level you won't be able to arrange them into sessions.
-**Oconf** - I managed to create rooms, session and to publish a program. However, I am not sure if we can easily affect submissions to sessions for instance. Maybe this has to be done manually.
-*(Issues 40,39,38 [@tuxette](https://github.com/tuxette))*
+Issues 40,39,38 
+### Comments from evaluator [@tuxette](https://github.com/tuxette)
+- **Odoo**- I managed to create rooms, sessions and to assign speakers to sessions (not papers though: you can only have the session title and the speaker name but not the title of the talk). I was also able to define different types of sessions and to publish the program.
+- **Osem** Once the events (actually an event = a talk or a session) have been defined and accepted it is easy to arrange them into a program. The main difficulty seems to be that I think we cannot really put session and talks into the program: you can define a session, in the "abstract" of the session write the details about the different talks or if you define the event at a talk level you won't be able to arrange them into sessions.
+- **Oconf** - I managed to create rooms, session and to publish a program. However, I am not sure if we can easily affect submissions to sessions for instance. Maybe this has to be done manually.
+
+### Notes / synopsis
+It looks like (limited) success was had with each system. 
+
+- TODO: @amy can you see if there's options we missed that would facilitate a better experience on each of these systems?
 ## Submit talks
 **Odoo** - Don't know how to create an account?
  **Osem** - I could register for the conference.  
