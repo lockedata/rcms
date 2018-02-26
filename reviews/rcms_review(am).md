@@ -19,8 +19,9 @@
 
 With 3 tasks still pending, Odoo has had the most successful evaluations of critical tasks, with osem and then oconf having fewer successes.
 
-## Manage registration comments
-Issues 46,45,44- @**[tvedebrink](https://github.com/tvedebrink)**
+## Manage registration
+Issues 46,45,44
+### Comments from evaluator @[tvedebrink](https://github.com/tvedebrink)
 - **Odoo**- I can't login on the satuRday pages.
 - **Osem**
     + Profile update went fine 
@@ -28,15 +29,27 @@ Issues 46,45,44- @**[tvedebrink](https://github.com/tvedebrink)**
 - **Oconf**
     + Edit of profile went fine  
     + Cant manage to buy tickets - hence no refund possible
-    
+
+### Notes / synopsis
+Registration management for attendees is important unless we were to rely on a manula/ back office option. 
+
+
 ## Register
-issues 43,42,41 - @[tvedebrink](https://github.com/tvedebrink)
+Issues 43,42,41 
+
+### Comments from evaluator @[tvedebrink](https://github.com/tvedebrink)
 
 - **Odoo**- I can't login as I don't know how to sign up a new account
 - **Osem**
     + I "bought" a free ticket to the event. I haven't tried to pay for one.. 
     + I couldn't print or retrieve my ticket (neither using show or pdf)
 - **Oconf**- I can't find the link or formula to buy a ticket for the event
+
+### Notes / synopsis
+This is a serious blocker.
+
+- TODO: @amy please see if you can register for an event on odoo under a dummy email address
+- TODO: @amy please see if you can register for an event on oconf 
 
 ## Build agenda
 **Odoo**- I managed to create rooms, sessions and to assign speakers to sessions (not papers though: you can only have the session title and the speaker name but not the title of the talk). I was also able to define different types of sessions and to publish the program.
