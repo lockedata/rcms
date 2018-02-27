@@ -134,10 +134,10 @@ Can add team members who need access to the system *[@tuxette](https://github.co
 **Osem** I updated the name and date via the Basics dialog and the place/country via the Venue dialog. It is only possible to add video/photo for the venue from certain providers (YouTube, Instagram, Flickr, SlideShare, SpeakerDeck). Some aspects of the page seem to be hard-coded, e.g. "useR2019 has the most awesome program ever! See rock-star speakers cover the topics of" and "Don't miss out!".
 I tried to upload a logo (png) but it doesn't seem to find it - I guess this needs to be put on the server.
 I edited the contact email and Twitter account. You can't create a mailto link, so you can't use this to add subject filters to queries, e.g. for sponsor contacts (it allows you to add a separate address for this).  *[hturner](https://github.com/hturner)*
-Thumbs up *[@tuxette](https://github.com/tuxette)*
-Thumbs upModified a few things (dates, colors, etc.) which worked ok. *[statibk](https://github.com/statibk)*
-**Oconf** -  (unsure) Provide key info like dates and location (date is set properly but I am unsure if I am using well the system to describe the conference)  
-(thumbs up) Add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
+:Thumbsup: *[@tuxette](https://github.com/tuxette)*
+Have modified a few things (dates, colors, etc.) which worked ok. *[statibk](https://github.com/statibk)*
+**Oconf** -  (unsure) Provide key info like dates and location (date is set properly but I am unsure if I am using well the system to describe the conference)  
+Can add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
 ## Customise conference content
 Issues 16,15,14
 ### Comments from evaluator [@tuxette](https://github.com/tuxette) & [hturner](https://github.com/hturner)
