@@ -99,25 +99,25 @@ Issues 25,24,23
 **Odoo** - I haven't seen anything about paper submission in this system...
 **Osem** - I was able to define tracks and event types (almost: length has to be a multiple of at least 5 minutes which can be a problem for lightning talks?)  
 but  I was not able to configure CFP. I do not have the proper rights it seems (because it worked well on OSEM Demo).
-In conclusion:  
-(ðŸ‘) Define any tracks / categories required  
-(ðŸ‘Ž) Configure CFP details  
-(ðŸ‘Ž) Add CFP content like FAQs  
-(ðŸ‘Ž) Customise form
-**Oconf** - (ðŸ‘) Define any tracks / categories required  
-(unsure) Configure CFP details (maybe I did it but I was not able to check: I did not find where it appears on the public website  
-(ðŸ‘Ž) Add CFP content like FAQs  
-(ðŸ‘Ž) Customise form (did not find where to do that)
+In conclusion:  
+Can define any tracks / categories required 
+Can't configure CFP details 
+Can't add CFP content like FAQs  
+Can't customise form
+**Oconf** - can define any tracks / categories required 
+(unsure) Configure CFP details (maybe I did it but I was not able to check: I did not find where it appears on the public website 
+Can't Add CFP content like FAQs 
+Can't xustomise form (did not find where to do that)
 ## Setup tickets
 Issues 22,21,20
 
-**Odoo** - ðŸ‘ Create tickets for the conference  
-ðŸ‘Ž Add a payment provider (I think that the functionality exists in "Sales". However, the framework is so different from a conference that I am not able to see where and how)  
-ðŸ‘ Customise registration form (to a certain extent: text questions are limited to Name, Email and Phone, Address, Country. Maybe affiliation (at least) would be useful). Also for multiple option tickets (ex: registration + gala), some parts of the form has to be filled twice...!  
-ðŸ‘ Customise confirmation email (very well made)
-**Osem** - (ðŸ‘) Create tickets for the conference (except that once the currency is set, you cannot change it)  
-(ðŸ‘Ž ) Add a payment provider (I did not find where to add payment provider)  
-(ðŸ‘Ž) Customise registration form (I was able to add questions but not to change the registration dates nor to display the registration form)  
+**Odoo** - Can create tickets for the conference 
+Can't add payment provider (I think that the functionality exists in "Sales". However, the framework is so different from a conference that I am not able to see where and how) 
+Can customise registration form (to a certain extent: text questions are limited to Name, Email and Phone, Address, Country. Maybe affiliation (at least) would be useful). Also for multiple option tickets (ex: registration + gala), some parts of the form has to be filled twice...! 
+Can customise confirmation email (very well made)
+**Osem** - can create tickets for the conference (except that once the currency is set, you cannot change it)  
+Can't add a payment provider (I did not find where to add payment provider) 
+Can't customise registration form (I was able to add questions but not to change the registration dates nor to display the registration form) 
 (ðŸ‘) Customise confirmation email (I think that is done properly)
 Just adding to Nathalie's comments: I also tried to play around with the currencies. Inconvenient that once these are set they cannot be changed (apparently only deleted). Also you cannot mix currencies.
 **Oconf** - I found no information about how to configure a registration...
@@ -132,17 +132,17 @@ Issues 19,18,17
 Can add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
 **Osem** I updated the name and date via the Basics dialog and the place/country via the Venue dialog. It is only possible to add video/photo for the venue from certain providers (YouTube, Instagram, Flickr, SlideShare, SpeakerDeck). Some aspects of the page seem to be hard-coded, e.g. "useR2019 has the most awesome program ever! See rock-star speakers cover the topics of" and "Don't miss out!".
 I tried to upload a logo (png) but it doesn't seem to find it - I guess this needs to be put on the server.
-I edited the contact email and Twitter account. You can't create a mailto link, so you can't use this to add subject filters to queries, e.g. for sponsor contacts (it allows you to add a separate address for this).  *[hturner](https://github.com/hturner)*
-ðŸ‘ *[@tuxette](https://github.com/tuxette)*
-ðŸ‘ Modified a few things (dates, colors, etc.) which worked ok. *[statibk](https://github.com/statibk)*
+I edited the contact email and Twitter account. You can't create a mailto link, so you can't use this to add subject filters to queries, e.g. for sponsor contacts (it allows you to add a separate address for this).  *[hturner](https://github.com/hturner)*
+Thumbs up *[@tuxette](https://github.com/tuxette)*
+Thumbs upModified a few things (dates, colors, etc.) which worked ok. *[statibk](https://github.com/statibk)*
 **Oconf** -  (unsure) Provide key info like dates and location (date is set properly but I am unsure if I am using well the system to describe the conference)  
 (thumbs up) Add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
 ## Customise conference content
 Issues 16,15,14
 ### Comments from evaluator [@tuxette](https://github.com/tuxette) & [hturner](https://github.com/hturner)
-**Odoo** - ðŸ‘ Add content  
-ðŸ‘ Create additional pages / content locations  
-ðŸ‘ Tweak style if required (manageable but not super easy: I had problems to insert HTML code for instance)  *[@tuxette](https://github.com/tuxette)*
+**Odoo** - can add content  
+Can create additional pages / content locations 
+Cant tweak style if required (manageable but not super easy: I had problems to insert HTML code for instance)*[@tuxette](https://github.com/tuxette)*
 Just noticed dates are in US format. This  [https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo](https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo)  suggests it may be possible to change to other formats if you have Settings administration rights (I only have Access Rights). The WSIWYG editor appeared to allow me to change the date text but it didn't save.
 It appears you can write your own website templates using Python  [https://www.odoo.com/documentation/11.0/howtos/website.html](https://www.odoo.com/documentation/11.0/howtos/website.html)  but this would be much more involved.  *[hturner](https://github.com/hturner) had input also.)*
 **Osem** - You can modify the basic information (dates, venue etc).
