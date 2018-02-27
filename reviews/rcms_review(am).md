@@ -118,7 +118,7 @@ Can customise confirmation email (very well made)
 **Osem** - can create tickets for the conference (except that once the currency is set, you cannot change it)  
 Can't add a payment provider (I did not find where to add payment provider) 
 Can't customise registration form (I was able to add questions but not to change the registration dates nor to display the registration form) 
-(ðŸ‘) Customise confirmation email (I think that is done properly)
+Can customise confirmation email (I think that is done properly)
 Just adding to Nathalie's comments: I also tried to play around with the currencies. Inconvenient that once these are set they cannot be changed (apparently only deleted). Also you cannot mix currencies.
 **Oconf** - I found no information about how to configure a registration...
 *(issues 22,21,20 - [@tuxette](https://github.com/tuxette)*
