@@ -184,8 +184,8 @@ Issues 7,6,5
 I added Nathalie as a user and made her an organizer of the "useR2019" conference. This should give her full access to that conference.
 - **Oconf** - I signed up as a user and Steph made me an admin. It's currently only possible to sign in with a Google account, this is nice to have as an option but it should not be the only option.
 I also made Nathalie an admin after she had signed up as a user. There were the options
--   Admin?
--   Selection committee?
--   Complete profile?
+Admin?
+Selection committee?
+Complete profile?
 and I selected only admin (could choose any combination by the look of it).
-*(issues 7,6,5 [hturner](https://github.com/hturner))*
+
