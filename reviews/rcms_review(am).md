@@ -48,8 +48,8 @@ Issues 43,42,41
 ### Notes / synopsis
 This is a serious blocker.
 
-- TODO: @amy please see if you can register for an event on odoo under a dummy email address
-- TODO: @amy please see if you can register for an event on oconf 
+- TODO: [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on odoo under a dummy email address
+- TODO:  [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on oconf 
 
 ## Build agenda
 Issues 40,39,38 
@@ -61,7 +61,7 @@ Issues 40,39,38
 ### Notes / synopsis
 It looks like (limited) success was had with each system. 
 
-- TODO: @amy can you see if there's options we missed that would facilitate a better experience on each of these systems?
+- TODO: [@amymcdougall](https://github.com/Amymcdougall) see if there's options we missed that would facilitate a better experience on each of these systems?
 ## Submit talks
 Issues 37,36,35
 ### Comments from evaluator [@Tvede](https://github.com/tvede)
