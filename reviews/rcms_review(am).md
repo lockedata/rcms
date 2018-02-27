@@ -97,7 +97,7 @@ Issues 28,27,26
 Issues 25,24,23
 ### Comments from evaluator [@tuxette](https://github.com/tuxette)
 - **Odoo** - I haven't seen anything about paper submission in this system...
--**Osem** - I was able to define tracks and event types (almost: length has to be a multiple of at least 5 minutes which can be a problem for lightning talks?)   
+- **Osem** - I was able to define tracks and event types (almost: length has to be a multiple of at least 5 minutes which can be a problem for lightning talks?)   
 but  I was not able to configure CFP. I do not have the proper rights it seems (because it worked well on OSEM Demo).
 In conclusion:  
 Can define any tracks / categories required 
