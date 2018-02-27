@@ -111,6 +111,7 @@ Can't xustomise form (did not find where to do that)
 ## Setup tickets
 Issues 22,21,20
 
+### Comments from evaluator [@tuxette](https://github.com/tuxette)
 **Odoo** - Can create tickets for the conference 
 Can't add payment provider (I think that the functionality exists in "Sales". However, the framework is so different from a conference that I am not able to see where and how) 
 Can customise registration form (to a certain extent: text questions are limited to Name, Email and Phone, Address, Country. Maybe affiliation (at least) would be useful). Also for multiple option tickets (ex: registration + gala), some parts of the form has to be filled twice...! 
@@ -121,7 +122,7 @@ Can't customise registration form (I was able to add questions but not to change
 Can customise confirmation email (I think that is done properly)
 Just adding to Nathalie's comments: I also tried to play around with the currencies. Inconvenient that once these are set they cannot be changed (apparently only deleted). Also you cannot mix currencies.
 **Oconf** - I found no information about how to configure a registration...
-*(issues 22,21,20 - [@tuxette](https://github.com/tuxette)*
+
 
 ### Notes / synopsis*Note: extra comment form [@statibk](https://github.com/statibk)
 
