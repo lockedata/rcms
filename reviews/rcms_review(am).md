@@ -71,6 +71,12 @@ Issues 37,36,35
  I can't figure out how to submit a talk..
 - **Oconf** - I was able to sign-in/login on the oconf site using my google account (but not by other means??)
 I coundn't submit a session proposal.
+
+### Notes / synopsis
+No success across this entire task needs investigating.
+
+- TODO: [@amymcdougall](https://github.com/Amymcdougall) can you give each a go?
+
 ## Manage attendees
 Issues 34,33,32
 ### Comments from evaluator @juliejosse
@@ -93,67 +99,77 @@ Issues 28,27,26
 ### Notes / synopsis
 [@thothorn](https://github.com/thothorn) had emailed and is confused on what the tasks are asking him to do
 
+- TODO: [@amymcdougall](https://github.com/Amymcdougall) can you see if you can improve my wording?
+
 ## Setup session submission
 Issues 25,24,23
 ### Comments from evaluator [@tuxette](https://github.com/tuxette)
 - **Odoo** - I haven't seen anything about paper submission in this system...
-- **Osem** - I was able to define tracks and event types (almost: length has to be a multiple of at least 5 minutes which can be a problem for lightning talks?)   
-but  I was not able to configure CFP. I do not have the proper rights it seems (because it worked well on OSEM Demo).
-In conclusion:  
-Can define any tracks / categories required 
-Can't configure CFP details 
-Can't add CFP content like FAQs  
-Can't customise form
-- **Oconf** - can define any tracks / categories required 
-(unsure) Configure CFP details (maybe I did it but I was not able to check: I did not find where it appears on the public website 
-Can't Add CFP content like FAQs 
-Can't xustomise form (did not find where to do that)
+- **Osem** - I was able to define tracks and event types (almost: length has to be a multiple of at least 5 minutes which can be a problem for lightning talks?) but  I was not able to configure CFP. I do not have the proper rights it seems (because it worked well on OSEM Demo). In conclusion:  
+     + Can define any tracks / categories required 
+     + Can't configure CFP details 
+     + Can't add CFP content like FAQs  
+     + Can't customise form
+- **Oconf** - can define any tracks / categories required  
+    + (unsure) Configure CFP details (maybe I did it but I was not able to check: I did not find where it appears on the public website 
+    + Can't Add CFP content like FAQs 
+    + Can't customise form (did not find where to do that)
+    
+### Notes/ synopsis
+This task blocked the downstream task of managing the speaker submission. Needs investigating / remediation and the downstream tasks re-assessed.
+
+- **TODO: [@amymcdougall](https://github.com/Amymcdougall) please investigate configuring cfp ASAP**
+
 ## Setup tickets
 Issues 22,21,20
 
 ### Comments from evaluator [@tuxette](https://github.com/tuxette)
-- **Odoo** - Can create tickets for the conference 
-Can't add payment provider (I think that the functionality exists in "Sales". However, the framework is so different from a conference that I am not able to see where and how) 
-Can customise registration form (to a certain extent: text questions are limited to Name, Email and Phone, Address, Country. Maybe affiliation (at least) would be useful). Also for multiple option tickets (ex: registration + gala), some parts of the form has to be filled twice...! 
-Can customise confirmation email (very well made)
-- **Osem** - can create tickets for the conference (except that once the currency is set, you cannot change it)  
-Can't add a payment provider (I did not find where to add payment provider) 
-Can't customise registration form (I was able to add questions but not to change the registration dates nor to display the registration form) 
-Can customise confirmation email (I think that is done properly)
-Just adding to Nathalie's comments: I also tried to play around with the currencies. Inconvenient that once these are set they cannot be changed (apparently only deleted). Also you cannot mix currencies.
+- **Odoo** 
+    + Can create tickets for the conference 
+    + Can't add payment provider (I think that the functionality exists in "Sales". However, the framework is so different from a conference that I am not able to see where and how) 
+    + Can customise registration form (to a certain extent: text questions are limited to Name, Email and Phone, Address, Country. Maybe affiliation (at least) would be useful). Also for multiple option tickets (ex: registration + gala), some parts of the form has to be filled twice...! 
+    + Can customise confirmation email (very well made)
+- **Osem** 
+    + Can create tickets for the conference (except that once the currency is set, you cannot change it)  
+    + Can't add a payment provider (I did not find where to add payment provider) 
+    + Can't customise registration form (I was able to add questions but not to change the registration dates nor to display the registration form) 
+    + Can customise confirmation email (I think that is done properly)
+    + [@statibk](https://github.com/statibk): I also tried to play around with the currencies. Inconvenient that once these are set they cannot be changed (apparently only deleted). Also you cannot mix currencies.
 - **Oconf** - I found no information about how to configure a registration...
 
-
-### Notes / synopsis*Note: extra comment form [@statibk](https://github.com/statibk)
 
 ## Configure conference
 Issues 19,18,17
 ### Comments from evaluator [@tuxette](https://github.com/tuxette), [statibk](https://github.com/statibk) & [hturner](https://github.com/hturner) had input also.
-- **Odoo** - Can provide key info like dates and location  
-Can add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
+- **Odoo** 
+    +  Can provide key info like dates and location  
+    + Can add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
 - **Osem** I updated the name and date via the Basics dialog and the place/country via the Venue dialog. It is only possible to add video/photo for the venue from certain providers (YouTube, Instagram, Flickr, SlideShare, SpeakerDeck). Some aspects of the page seem to be hard-coded, e.g. "useR2019 has the most awesome program ever! See rock-star speakers cover the topics of" and "Don't miss out!".
 I tried to upload a logo (png) but it doesn't seem to find it - I guess this needs to be put on the server.
-I edited the contact email and Twitter account. You can't create a mailto link, so you can't use this to add subject filters to queries, e.g. for sponsor contacts (it allows you to add a separate address for this).  *[hturner](https://github.com/hturner)*
-:Thumbsup: *[@tuxette](https://github.com/tuxette)*
-Have modified a few things (dates, colors, etc.) which worked ok. *[statibk](https://github.com/statibk)*
-- **Oconf** -  (unsure) Provide key info like dates and location (date is set properly but I am unsure if I am using well the system to describe the conference)  
-Can add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
+I edited the contact email and Twitter account. You can't create a mailto link, so you can't use this to add subject filters to queries, e.g. for sponsor contacts (it allows you to add a separate address for this). 
+Have modified a few things (dates, colors, etc.) which worked ok.
+- **Oconf**
+    +  Date is set properly but I am unsure if I am using well the system to describe the conference 
+    + Can add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
 ## Customise conference content
 Issues 16,15,14
 ### Comments from evaluator [@tuxette](https://github.com/tuxette) & [hturner](https://github.com/hturner)
-- **Odoo** - can add content  
-Can create additional pages / content locations 
-Cant tweak style if required (manageable but not super easy: I had problems to insert HTML code for instance)*[@tuxette](https://github.com/tuxette)*
-Just noticed dates are in US format. This  [https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo](https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo)  suggests it may be possible to change to other formats if you have Settings administration rights (I only have Access Rights). The WSIWYG editor appeared to allow me to change the date text but it didn't save.
-It appears you can write your own website templates using Python  [https://www.odoo.com/documentation/11.0/howtos/website.html](https://www.odoo.com/documentation/11.0/howtos/website.html)  but this would be much more involved.  *[hturner](https://github.com/hturner) had input also.)*
-- **Osem** - You can modify the basic information (dates, venue etc).
-I don't see a way to create additional pages/sections. At the moment there doesn't seem to be a good place to put e.g. travel information, code of conduct, FAQ.
-There is limited ability to tweak the style (base colour). *[hturner](https://github.com/hturner)*
-same comment than Heather: I am able to change basic things like conference dates and venue but I don't see where to add additional pages. Customization of the pages does not seem very easy to do (no WSIWYG editor) and the website template seems to be more or less fixed.  *[@tuxette](https://github.com/tuxette)*
-- **Oconf** - Can't add content  -
-Can't create additional pages / content locations  
-Can't t weak style if required  
-I was not able to find anywhere where to customise the website look or content.
+- **Odoo**
+    + Can add content  
+    + Can create additional pages / content locations 
+    + Cant tweak style if required (manageable but not super easy: I had problems to insert HTML code for instance)
+    + Just noticed dates are in US format. This  [https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo](https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo)  suggests it may be possible to change to other formats if you have Settings administration rights (I only have Access Rights). The WSIWYG editor appeared to allow me to change the date text but it didn't save.
+    + It appears you can write your own website templates using Python  [https://www.odoo.com/documentation/11.0/howtos/website.html](https://www.odoo.com/documentation/11.0/howtos/website.html)  but this would be much more involved.
+- **Osem**
+    +  You can modify the basic information (dates, venue etc).
+    + I don't see a way to create additional pages/sections. At the moment there doesn't seem to be a good place to put e.g. travel information, code of conduct, FAQ.
+    + There is limited ability to tweak the style (base colour). 
+    + I am able to change basic things like conference dates and venue but I don't see where to add additional pages. Customization of the pages does not seem very easy to do (no WSIWYG editor) and the website template seems to be more or less fixed. 
+- **Oconf** 
+    + Can't add content  -
+    + Can't create additional pages / content locations  
+    + Can't tweak style if required  
+    + I was not able to find anywhere where to customise the website look or content.
 ## Create a new conference
 Issues 13,12,11
 ### Comments from evaluator [hturner](https://github.com/hturner)
@@ -165,17 +181,19 @@ It is possible to use HTML in the editing text boxes, which gives some control o
 ## Create and brand a conference template
 issues 10,9,8
 ### Comments from evaluator [hturner](https://github.com/hturner)
-- **Odoo** - This interface was the least intuitive and the docs are hopeless, but this looks much more powerful.
-The website is designed as if it hosted by a company that runs events. So the simplest way to adopt it would be to have separate instances with satRdays as the company in one case and the R Foundation as the company in the other. However the website appears to be fully customizable, so with a bit more work we could create one website for all, with separate info pages for satRdays and R Foundation conferences (or each conference series). Events are tagged by organizer and type, so this would help to differentiate conference series if required.
-Currently satRdays is registered as a company in the settings. I could not add "useR! conferences" as a separate company. I could change satRdays to useR!, but I reverted this change as other content has already been added about satRdays. The company settings produce some default content on the webpage, e.g. overall site logo, but this is customisable.
-Creating an event is a bit weird. The "Location" is either an individual or a company and their address determines the location of the event. The "Organizer" is a company, so should be satRdays or useR! local committee or similar (even though satRdays is the only company in the settings, I could add another company as an organizer for a particular event). There seem to be a large number of irrelevant in-built options, which is a bit distracting, maybe we could delete those. Sometimes clicking "Edit" does not seem to be enough, for example I didn't set the start and end times to begin with, in order to change this I had to click "Edit" and then "Set to draft".
-However once you work out how to create and edit the event a nice default webpage is created. This is fully customisable. If I add a section (e.g. for one event I created a few spots to advertise the keynote speakers) and then duplicate the event to form the basis of a new one, the customisation gets carried forward. This means it is much easier to create a similar event the next time.
-- **Osem** - It does not seem to be possible to create a conference template or an umbrella page for a set of events.
-The system does have a custom name for the whole site (R Conferences), so it would be possible to have separate instances for useR! and satRdays with their own branding. But then we might lose the benefit of a common log in and user profile.
-- **Oconf** - I tried to create a page for all useR! events, how it is only possible to create an event page. A lot of the content on this page is hard-coded, e.g. adding "proposals" to the page title. It does not seem possible to add a logo/branding. The events menu shows the name of the currently selected event, which is confusing, e.g. when I am on the useR! page, the events menu button is named "useR" with options "useR" and "sample conf".
-I then tried to create a page for useR! 2019 as a child of the useR! page. This is possible, but then I can't navigate to the useR! 2019 page from the navigation bar! (It shows on the /events/ page).
-So I gave up on creating a set of events and created a stand-alone page for useR! 2020. (See issue  [#11](https://github.com/lockedata/rcms/issues/11)).
-Overall this is looking like an abstract handling site, not a conference management site.
+- **Odoo** 
+    + This interface was the least intuitive and the docs are hopeless, but this looks much more powerful.
+    + The website is designed as if it hosted by a company that runs events. So the simplest way to adopt it would be to have separate instances with satRdays as the company in one case and the R Foundation as the company in the other. However the website appears to be fully customizable, so with a bit more work we could create one website for all, with separate info pages for satRdays and R Foundation conferences (or each conference series). Events are tagged by organizer and type, so this would help to differentiate conference series if required.
+    + Currently satRdays is registered as a company in the settings. I could not add "useR! conferences" as a separate company. I could change satRdays to useR!, but I reverted this change as other content has already been added about satRdays. The company settings produce some default content on the webpage, e.g. overall site logo, but this is customisable.
+    + Creating an event is a bit weird. The "Location" is either an individual or a company and their address determines the location of the event. The "Organizer" is a company, so should be satRdays or useR! local committee or similar (even though satRdays is the only company in the settings, I could add another company as an organizer for a particular event). There seem to be a large number of irrelevant in-built options, which is a bit distracting, maybe we could delete those. Sometimes clicking "Edit" does not seem to be enough, for example I didn't set the start and end times to begin with, in order to change this I had to click "Edit" and then "Set to draft".
+    + However once you work out how to create and edit the event a nice default webpage is created. This is fully customisable. If I add a section (e.g. for one event I created a few spots to advertise the keynote speakers) and then duplicate the event to form the basis of a new one, the customisation gets carried forward. This means it is much easier to create a similar event the next time.
+- **Osem** 
+     +  It does not seem to be possible to create a conference template or an umbrella page for a set of events.
+     + The system does have a custom name for the whole site (R Conferences), so it would be possible to have separate instances for useR! and satRdays with their own branding. But then we might lose the benefit of a common log in and user profile.
+- **Oconf** 
+     + I tried to create a page for all useR! events, how it is only possible to create an event page. A lot of the content on this page is hard-coded, e.g. adding "proposals" to the page title. It does not seem possible to add a logo/branding. The events menu shows the name of the currently selected event, which is confusing, e.g. when I am on the useR! page, the events menu button is named "useR" with options "useR" and "sample conf".
+     + I then tried to create a page for useR! 2019 as a child of the useR! page. This is possible, but then I can't navigate to the useR! 2019 page from the navigation bar! (It shows on the /events/ page). So I gave up on creating a set of events and created a stand-alone page for useR! 2020. (See issue  [#11](https://github.com/lockedata/rcms/issues/11)).
+     + Overall this is looking like an abstract handling site, not a conference management site.
 ## Create user/conference account
 Issues 7,6,5
 ### Comments from evaluator [hturner](https://github.com/hturner)
