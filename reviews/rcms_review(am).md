@@ -79,15 +79,15 @@ No success across this entire task needs investigating.
 
 ## Manage attendees
 Issues 34,33,32
-### Comments from evaluator @juliejosse
-- **Odoo** *IN PROGRESS- @juliejosse*
-- **Osem** - *IN PROGRESS- @juliejosse*
-- **Oconf** - *IN PROGRESS- @juliejosse*
+### Comments from evaluator [@julierennes](https://github.com/julierennes)
+- **Odoo** *IN PROGRESS- @@julierenne*
+- **Osem** - *IN PROGRESS- @@julierenne*
+- **Oconf** - *IN PROGRESS- @@julierenne*
 ## Manage sponsors
 Issues 31,30,29 
-### Comments from evaluator @juliejosse
-- **Odoo** *IN PROGRESS- @juliejosse*
-- **Osem** - *IN PROGRESS- @juliejosse*
+### Comments from evaluator [@julierennes](https://github.com/julierennes)
+- **Odoo** *IN PROGRESS- @@julierenne*
+- **Osem** - *IN PROGRESS- @@julierenne*
 - **Oconf** - For now, I have a message: "something went wrong..."
 ## Manage speaker submission
 Issues 28,27,26
