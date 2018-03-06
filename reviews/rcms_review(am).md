@@ -4,7 +4,7 @@
 | [Manage registration](#manage-registration)                    | fail        | success     | fail        |
 | [Register](#register)                               | fail        | fail        | fail        |
 | [Build agenda](#build-agenda)                           | success     | success     | success     |
-| [Submit talks](#submit-talks)                           | fail        | fail        | fail        |
+| [Submit talks](#submit-talks)                           | success        | success        | fail        |
 | [Manage attendees](#manage-attendees)                       | in progress | in progress | in progress |
 | [Manage sponsors](#manage-sponsors)                        | in progress | in progress | fail        |
 | [Manage speaker submission](#manage-speaker-submission)              | in progress | in progress | in progress |
@@ -71,11 +71,22 @@ Issues 37,36,35
  I can't figure out how to submit a talk..
 - **Oconf** - I was able to sign-in/login on the oconf site using my google account (but not by other means??)
 I coundn't submit a session proposal.
+I was able to sign-in using my google credentials, but then when I tried to fill out my profile using textile markup and save, I got an error. See attached.[bnaras](https://github.com/bnaras)
 
 ### Notes / synopsis
 No success across this entire task needs investigating.
 
 - TODO: [@amymcdougall](https://github.com/Amymcdougall) can you give each a go?
+
+### Comments from [@amymcdougall](https://github.com/Amymcdougall)
+- **Odoo** I can submit a talk,i can then either view, edit, or delete the proposal. I can edit the talk.
+I can see on the upper right a section to view the status of the talk. The options are as follows
+Proposal> Confirmed> Announced> Published> Refused> Cancelled
+- **Osem** I could register for a conference (whatever the test one I used is). 
+I could generate a pdf with my registration on, and I could view it there.
+I could submit a talk, I could edit this talk, however, I can't view much on the status as I need to add a commercial - 'If you don't add a commercial, the conference commercial will be displayed!' But I can see an orange bar that tells me 'Complete proposal - 2left'.
+- **Onconf** I also have the same issue as [bnaras](https://github.com/bnaras). "We're sorry, but something went wrong. If you are the application owner check the logs for more information"
+
 
 ## Manage attendees
 Issues 34,33,32
