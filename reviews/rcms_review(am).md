@@ -51,7 +51,7 @@ This is a serious blocker.
 - TODO: [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on odoo under a dummy email address
 - TODO:  [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on oconf 
 ### Comments from [@amymcdougall](https://github.com/Amymcdougall)
-- **Odoo** I can buy tickets for a conference - under multiple email addresses.
+- **Odoo** I can buy tickets for a event - under multiple email addresses.
 
 ## Build agenda
 Issues 40,39,38 
