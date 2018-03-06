@@ -2,7 +2,7 @@
 | Functionality                          | Odoo        | Osem        | Oconf       |
 |----------------------------------------|-------------|-------------|-------------|
 | [Manage registration](#manage-registration)                    | fail        | success     | fail        |
-| [Register](#register)                               | fail        | fail        | fail        |
+| [Register](#register)                               | success        | fail        | fail        |
 | [Build agenda](#build-agenda)                           | success     | success     | success     |
 | [Submit talks](#submit-talks)                           | success        | success        | fail        |
 | [Manage attendees](#manage-attendees)                       | in progress | in progress | in progress |
@@ -50,6 +50,8 @@ This is a serious blocker.
 
 - TODO: [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on odoo under a dummy email address
 - TODO:  [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on oconf 
+### Comments from [@amymcdougall](https://github.com/Amymcdougall)
+- **Odoo** I can buy tickets for a conference - under multiple email addresses.
 
 ## Build agenda
 Issues 40,39,38 
