@@ -52,6 +52,7 @@ This is a serious blocker.
 - TODO:  [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on oconf 
 ### Comments from [@amymcdougall](https://github.com/Amymcdougall)
 - **Odoo** I can buy tickets for a event - under multiple email addresses.
+- **Oconf** I spent 2 hours attempting this. I could not find out how to buy a ticket.
 
 ## Build agenda
 Issues 40,39,38 
