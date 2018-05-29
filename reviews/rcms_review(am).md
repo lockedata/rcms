@@ -5,11 +5,11 @@
 | [Register](#register)                               | success        | fail        | fail        |
 | [Build agenda](#build-agenda)                           | success     | success     | success     |
 | [Submit talks](#submit-talks)                           | success        | success        | fail        |
-| [Manage attendees](#manage-attendees)                       | in progress | in progress | in progress |
-| [Manage sponsors](#manage-sponsors)                        | in progress | in progress | fail        |
-| [Manage speaker submission](#manage-speaker-submission)              | in progress | in progress | in progress |
+| [Manage attendees](#manage-attendees)                       | success | fail| fail |
+| [Manage sponsors](#manage-sponsors)                        | success | fail | fail        |
+| [Manage speaker submission](#manage-speaker-submission)              | fail | fail | fail |
 | [Setup session submission](#setup-session-submission)              | fail        | fail        | fail        |
-| [Setup tickets](#setup-tickets)                          | success     | fail        | fail        |
+| [Setup tickets](#setup-tickets)                          | success     | success      | fail        |
 | [Configure conference](#configure-conference)                   | success     | success     | success    |
 | [Customise conference content](#customise-conference-content)           | success     | fail        | fail        |
 | [Create a new conference](#create-a-new-conference) | success     | success     | success     |
@@ -93,22 +93,39 @@ I could submit a talk, I could edit this talk, however, I can't view much on the
 
 ## Manage attendees
 Issues 34,33,32
-### Comments from evaluator [@julierennes](https://github.com/julierennes)
-- **Odoo** *IN PROGRESS- @@julierenne*
-- **Osem** - *IN PROGRESS- @@julierenne*
-- **Oconf** - *IN PROGRESS- @@julierenne*
+### Comments from evaluator [@tuxette](https://github.com/tuxette) & [@amymcdougall](https://github.com/Amymcdougall)
+- **Odoo** I can monitor sales. I can modify a registration (add a description, name, email, and a couple of other bits) But I can't see where to refund a ticket. I can send an email to attendees. - [@amymcdougall](https://github.com/Amymcdougall)
+- **Osem** - It seems that sales have already been monitored and that some people are already registered. But I cannot edit these already sold tickets. They are all free tickets so I cannot issue a refund (but it is as if tickets were not editable: when I click on "show" I just have a blank page).
+I don't see a tool to send emails to registered people but you can easily export the email list into CSV format so this is not really an issue (it can be done manually easily).
+- **Oconf** - *I don't think that registration is covered by this program. I've searched and did not find any place where tickets can be configured and sold. The documentation says:
+
+Anyone can list events
+Anyone can list/show sessions for an event
+Anyone can list/show proposals for an event
+Anyone can leave private comments about proposals to organizers
+Anyone can be informed of new proposals via ATOM feed
+Anyone can list/show tracks for an event
+Anyone can list/show session types for an event
+Anyone can subscribe to a feed of proposals for the event
+Anyone can list/show rooms for an event
+Anyone can create a profile, including a biography, picture and URLs
+Users can login via OpenID
+Users can create proposals until a deadline
+Users can update/delete their own proposals until a deadline
+Users can assign one or many speakers to a proposal
+Users can mark proposals/sessions as favorites
 ## Manage sponsors
 Issues 31,30,29 
-### Comments from evaluator [@julierennes](https://github.com/julierennes)
-- **Odoo** *IN PROGRESS- @@julierenne*
-- **Osem** - *IN PROGRESS- @@julierenne*
-- **Oconf** - For now, I have a message: "something went wrong..."
+### Comments from evaluator [@julierennes](https://github.com/julierennes) & [@amymcdougall](https://github.com/Amymcdougall)
+- **Odoo** I can add, create or import sponsors and I can edit them - [@amymcdougall](https://github.com/Amymcdougall)
+- **Osem** - I could not find anything on sponsors..? - [@amymcdougall](https://github.com/Amymcdougall)
+- **Oconf** - For now, I have a message: "something went wrong..." -[@julierennes](https://github.com/julierennes)
 ## Manage speaker submission
 Issues 28,27,26
-### Comments from evaluator [@thothorn](https://github.com/thothorn)
-- **Odoo** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
-- **Osem** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
-- **Oconf** - *IN PROGRESS- [@thothorn](https://github.com/thothorn)*
+### Comments from evaluator [@amymcdougall](https://github.com/Amymcdougall)
+- **Odoo** - After one hour of attempting and trying i could not find how to do this. Not great ease and due to time it had already taken, opted to stop as nothing should take *that* long. - [@amymcdougall](https://github.com/Amymcdougall)
+- **Osem** - I haven't found any submission. - [@tuxette](https://github.com/tuxette)
+- **Oconf** - I haven't found any submission to review. [@tuxette](https://github.com/tuxette)
 
 ### Notes / synopsis
 [@thothorn](https://github.com/thothorn) had emailed and is confused on what the tasks are asking him to do
