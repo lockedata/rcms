@@ -124,6 +124,7 @@ Issues 31,30,29
 Issues 28,27,26
 ### Comments from evaluator [@amymcdougall](https://github.com/Amymcdougall)
 - **Odoo** - After one hour of attempting and trying i could not find how to do this. Not great ease and due to time it had already taken, opted to stop as nothing should take *that* long. - [@amymcdougall](https://github.com/Amymcdougall)
+same for me: I haven't found submissions and have not been able to review them - [@tuxette](https://github.com/tuxette)
 - **Osem** - I haven't found any submission. - [@tuxette](https://github.com/tuxette)
 - **Oconf** - I haven't found any submission to review. [@tuxette](https://github.com/tuxette)
 
