@@ -1,11 +1,11 @@
 # R CMS evaluation results 
 | Functionality                          | Odoo        | Osem        | Oconf       |
 |----------------------------------------|-------------|-------------|-------------|
-| [Manage registration](#manage-registration)                    | fail        | success     | fail        |
-| [Register](#register)                               | success        | fail        | fail        |
+| [Manage registration](#manage-registration)                    | success       | success     | fail        |
+| [Register](#register)                               | success        | success      | fail        |
 | [Build agenda](#build-agenda)                           | success     | success     | success     |
 | [Submit talks](#submit-talks)                           | success        | success        | fail        |
-| [Manage attendees](#manage-attendees)                       | success | fail| fail |
+| [Manage attendees](#manage-attendees)                       | success | *pass*| fail |
 | [Manage sponsors](#manage-sponsors)                        | success | fail | fail        |
 | [Manage speaker submission](#manage-speaker-submission)              | fail | fail | fail |
 | [Setup session submission](#setup-session-submission)              | fail        | fail        | fail        |
@@ -33,6 +33,10 @@ Issues 46,45,44
 ### Notes / synopsis
 Registration management for attendees is important unless we were to rely on a manula/ back office option. 
 
+#### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
+- **Odoo** I can edit information and i can edit, refund, and cancel tickets/payments/invoices
+- **Osem** N/A
+- **Oconf** I could not find out how to buy a ticket so i can't get a refund either by default. Will try again later.
 
 ## Register
 Issues 43,42,41 
@@ -50,8 +54,9 @@ This is a serious blocker.
 
 - TODO: [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on odoo under a dummy email address
 - TODO:  [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on oconf 
-### Comments from [@amymcdougall](https://github.com/Amymcdougall)
+#### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
 - **Odoo** I can buy tickets for a event - under multiple email addresses.
+- **Osem** I can buy a ticket and get this in a PDF format.
 - **Oconf** I spent 2 hours attempting this. I could not find out how to buy a ticket.
 
 ## Build agenda
@@ -80,8 +85,7 @@ I was able to sign-in using my google credentials, but then when I tried to fill
 No success across this entire task needs investigating.
 
 - TODO: [@amymcdougall](https://github.com/Amymcdougall) can you give each a go?
-
-### Comments from [@amymcdougall](https://github.com/Amymcdougall)
+#### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
 - **Odoo** I can submit a talk,i can then either view, edit, or delete the proposal. I can edit the talk.
 I can see on the upper right a section to view the status of the talk. The options are as follows
 Proposal> Confirmed> Announced> Published> Refused> Cancelled
@@ -93,8 +97,8 @@ I could submit a talk, I could edit this talk, however, I can't view much on the
 
 ## Manage attendees
 Issues 34,33,32
-### Comments from evaluator [@tuxette](https://github.com/tuxette) & [@amymcdougall](https://github.com/Amymcdougall)
-- **Odoo** I can monitor sales. I can modify a registration (add a description, name, email, and a couple of other bits) But I can't see where to refund a ticket. I can send an email to attendees. - [@amymcdougall](https://github.com/Amymcdougall)
+### Comments from evaluator [@tuxette](https://github.com/tuxette)
+- **Odoo** (DID NOT DO)
 - **Osem** - It seems that sales have already been monitored and that some people are already registered. But I cannot edit these already sold tickets. They are all free tickets so I cannot issue a refund (but it is as if tickets were not editable: when I click on "show" I just have a blank page).
 I don't see a tool to send emails to registered people but you can easily export the email list into CSV format so this is not really an issue (it can be done manually easily).
 - **Oconf** - *I don't think that registration is covered by this program. I've searched and did not find any place where tickets can be configured and sold. The documentation says:
@@ -114,6 +118,10 @@ Users can create proposals until a deadline
 Users can update/delete their own proposals until a deadline
 Users can assign one or many speakers to a proposal
 Users can mark proposals/sessions as favorites
+#### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
+- **Odoo** I can monitor sales. I can modify a registration (add a description, name, email, and a couple of other bits) But I can't see where to refund a ticket. I can send an email to attendees. 
+- **Osem** I can only edit a ticket before it is paid for. I can't refund or edit once it has been brought. I can't email directly but i can get their details in CSV to email them so I don't see that a big issue really.
+- **Oconf** agree with [@tuxette](https://github.com/tuxette), I couldn't find this and read the same in the documentation.
 ## Manage sponsors
 Issues 31,30,29 
 ### Comments from evaluator [@julierennes](https://github.com/julierennes) & [@amymcdougall](https://github.com/Amymcdougall)
@@ -122,7 +130,7 @@ Issues 31,30,29
 - **Oconf** - For now, I have a message: "something went wrong..." -[@julierennes](https://github.com/julierennes)
 ## Manage speaker submission
 Issues 28,27,26
-### Comments from evaluator [@amymcdougall](https://github.com/Amymcdougall)
+#### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
 - **Odoo** - After one hour of attempting and trying i could not find how to do this. Not great ease and due to time it had already taken, opted to stop as nothing should take *that* long. - [@amymcdougall](https://github.com/Amymcdougall)
 same for me: I haven't found submissions and have not been able to review them - [@tuxette](https://github.com/tuxette)
 - **Osem** - I haven't found any submission. - [@tuxette](https://github.com/tuxette)
