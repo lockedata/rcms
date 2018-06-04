@@ -5,7 +5,7 @@
 | [Register](#register)                               | success        | success      | fail        |
 | [Build agenda](#build-agenda)                           | success     | success     | success     |
 | [Submit talks](#submit-talks)                           | success        | success        | fail        |
-| [Manage attendees](#manage-attendees)                       | success | *pass*| fail |
+| [Manage attendees](#manage-attendees)                       | success | *success*| fail |
 | [Manage sponsors](#manage-sponsors)                        | success | fail | fail        |
 | [Manage speaker submission](#manage-speaker-submission)              | fail | fail | fail |
 | [Setup session submission](#setup-session-submission)              | fail        | fail        | fail        |
