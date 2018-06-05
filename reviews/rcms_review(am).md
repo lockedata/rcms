@@ -130,16 +130,21 @@ Issues 31,30,29
 - **Oconf** - For now, I have a message: "something went wrong..." -[@julierennes](https://github.com/julierennes)
 ## Manage speaker submission
 Issues 28,27,26
+#### Comments from second evaluation by [@tuxette](https://github.com/tuxette)
+- **Odoo** - I haven't found submissions and have not been able to review them 
+- **Osem** - I haven't found any submission. 
+- **Oconf** - I haven't found any submission to review. 
+
 #### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
-- **Odoo** - After one hour of attempting and trying i could not find how to do this. Not great ease and due to time it had already taken, opted to stop as nothing should take *that* long. - [@amymcdougall](https://github.com/Amymcdougall)
-same for me: I haven't found submissions and have not been able to review them - [@tuxette](https://github.com/tuxette)
-- **Osem** - I haven't found any submission. - [@tuxette](https://github.com/tuxette)
-- **Oconf** - I haven't found any submission to review. [@tuxette](https://github.com/tuxette)
+- **Odoo** - After one hour of attempting and trying i could not find how to do this. Not great ease and due to time it had already taken, opted to stop as nothing should take *that* long. 
+- **Osem** - 
+- **Oconf** I was unable to find any submissions to review, however, I read the documentation that states we should be able to do this. "Administrators can set deadlines for accepting proposals for events
+Administrators can export proposals and comments to CSV
+Administrators can update/delete any proposal
+Administrators can set status of any proposal (e.g., accept, reject)"
 
 ### Notes / synopsis
 [@thothorn](https://github.com/thothorn) had emailed and is confused on what the tasks are asking him to do
-
-- TODO: [@amymcdougall](https://github.com/Amymcdougall) can you see if you can improve my wording?
 
 ## Setup session submission
 Issues 25,24,23
