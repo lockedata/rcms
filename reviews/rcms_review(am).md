@@ -193,23 +193,27 @@ Have modified a few things (dates, colors, etc.) which worked ok.
     + Can add team members who need access to the system *[@tuxette](https://github.com/tuxette)*
 ## Customise conference content
 Issues 16,15,14
-### Comments from evaluator [@tuxette](https://github.com/tuxette) & [hturner](https://github.com/hturner)
+### Comments from evaluator [@tuxette](https://github.com/tuxette) 
 - **Odoo**
     + Can add content  
     + Can create additional pages / content locations 
     + Cant tweak style if required (manageable but not super easy: I had problems to insert HTML code for instance)
-    + Just noticed dates are in US format. This  [https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo](https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo)  suggests it may be possible to change to other formats if you have Settings administration rights (I only have Access Rights). The WSIWYG editor appeared to allow me to change the date text but it didn't save.
-    + It appears you can write your own website templates using Python  [https://www.odoo.com/documentation/11.0/howtos/website.html](https://www.odoo.com/documentation/11.0/howtos/website.html)  but this would be much more involved.
+
 - **Osem**
-    +  You can modify the basic information (dates, venue etc).
-    + I don't see a way to create additional pages/sections. At the moment there doesn't seem to be a good place to put e.g. travel information, code of conduct, FAQ.
-    + There is limited ability to tweak the style (base colour). 
-    + I am able to change basic things like conference dates and venue but I don't see where to add additional pages. Customization of the pages does not seem very easy to do (no WSIWYG editor) and the website template seems to be more or less fixed. 
+   same comment than Heather: I am able to change basic things like conference dates and venue but I don't see where to add additional pages. Customization of the pages does not seem very easy to do (no WSIWYG editor) and the website template seems to be more or less fixed.
 - **Oconf** 
     + Can't add content  -
     + Can't create additional pages / content locations  
     + Can't tweak style if required  
     + I was not able to find anywhere where to customise the website look or content.
+    
+ #### Comments from evaluator   [hturner](https://github.com/hturner)
+- **Odoo** Just noticed dates are in US format. This https://www.slideshare.net/deepsvirzoteck/change-date-format-in-odoo suggests it may be possible to change to other formats if you have Settings administration rights (I only have Access Rights). The WSIWYG editor appeared to allow me to change the date text but it didn't save.
+- **Osem** You can modify the basic information (dates, venue etc).
+I don't see a way to create additional pages/sections. At the moment there doesn't seem to be a good place to put e.g. travel information, code of conduct, FAQ.
+There is limited ability to tweak the style (base colour).
+It appears you can write your own website templates using Python https://www.odoo.com/documentation/11.0/howtos/website.html but this would be much more involved.
+- **Oconf** N/A
 ## Create a new conference
 Issues 13,12,11
 ### Comments from evaluator [hturner](https://github.com/hturner)
