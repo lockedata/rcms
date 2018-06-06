@@ -6,9 +6,9 @@
 | [Build agenda](#build-agenda)                           | success     | success     | success     |
 | [Submit talks](#submit-talks)                           | success        | success        | fail        |
 | [Manage attendees](#manage-attendees)                       | success | *success*| fail |
-| [Manage sponsors](#manage-sponsors)                        | success | fail | fail        |
-| [Manage speaker submission](#manage-speaker-submission)              | *success* | fail | fail |
-| [Setup session submission](#setup-session-submission)              | *success*        | fail        | fail        |
+| [Manage sponsors](#manage-sponsors)                        | success | *success* | fail        |
+| [Manage speaker submission](#manage-speaker-submission)              | *success* | fail | fail  |
+| [Setup session submission](#setup-session-submission)              | *success*        | fail (half)        | fail (half)        |
 | [Setup tickets](#setup-tickets)                          | success     | success      | fail        |
 | [Configure conference](#configure-conference)                   | success     | success     | success    |
 | [Customise conference content](#customise-conference-content)           | success     | fail        | fail        |
