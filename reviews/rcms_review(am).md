@@ -7,7 +7,7 @@
 | [Submit talks](#submit-talks)                           | success        | success        | fail        |
 | [Manage attendees](#manage-attendees)                       | success | *success*| fail |
 | [Manage sponsors](#manage-sponsors)                        | success | fail | fail        |
-| [Manage speaker submission](#manage-speaker-submission)              | fail | fail | fail |
+| [Manage speaker submission](#manage-speaker-submission)              | *success* | fail | fail |
 | [Setup session submission](#setup-session-submission)              | *success*        | fail        | fail        |
 | [Setup tickets](#setup-tickets)                          | success     | success      | fail        |
 | [Configure conference](#configure-conference)                   | success     | success     | success    |
@@ -44,16 +44,18 @@ Issues 43,42,41
 ### Comments from evaluator [@tvedebrink](https://github.com/tvedebrink)
 
 - **Odoo**- I can't login as I don't know how to sign up a new account
+For fun I tried to open the "Sign up" page - this seems empty?
+Sign in worked fine 👍
+I think I found it.. On the front page I see links to satuRday events.
+Registration of myself i cumbersome - why do I need to type in my own name again? Couldn't there be an "first registrant" tick box and then import my details?
+The "pay now" is slow.. And only wire transfer possible - credit card should also be available?
 - **Osem**
     + I "bought" a free ticket to the event. I haven't tried to pay for one.. 
     + I couldn't print or retrieve my ticket (neither using show or pdf)
 - **Oconf**- I can't find the link or formula to buy a ticket for the event
 
 ### Notes / synopsis
-This is a serious blocker.
 
-- TODO: [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on odoo under a dummy email address
-- TODO:  [@amymcdougall](https://github.com/Amymcdougall)  see if you can register for an event on oconf 
 #### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
 - **Odoo** I can buy tickets for a event - under multiple email addresses.
 - **Osem** I can buy a ticket and get this in a PDF format.
@@ -74,9 +76,11 @@ It looks like (limited) success was had with each system.
 Issues 37,36,35
 ### Comments from evaluator [@Tvede](https://github.com/tvede)
 - **Odoo** - Don't know how to create an account?
+I still can't figure out how to submit talks - I think I'm in admin mode when logged in? But can't do anything like commenting, rating or schedule the talks if that was indented.
 - **Osem** - I could register for the conference.  
  I couldn't generate a pdf with my registration details.
  I can't figure out how to submit a talk..
+ Forgot my password - re-sending it to my email worked just fine,
 - **Oconf** - I was able to sign-in/login on the oconf site using my google account (but not by other means??)
 I coundn't submit a session proposal.
 I was able to sign-in using my google credentials, but then when I tried to fill out my profile using textile markup and save, I got an error. See attached.[bnaras](https://github.com/bnaras)
@@ -84,7 +88,6 @@ I was able to sign-in using my google credentials, but then when I tried to fill
 ### Notes / synopsis
 No success across this entire task needs investigating.
 
-- TODO: [@amymcdougall](https://github.com/Amymcdougall) can you give each a go?
 #### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
 - **Odoo** I can submit a talk,i can then either view, edit, or delete the proposal. I can edit the talk.
 I can see on the upper right a section to view the status of the talk. The options are as follows
@@ -92,13 +95,19 @@ Proposal> Confirmed> Announced> Published> Refused> Cancelled
 - **Osem** I could register for a conference (whatever the test one I used is). 
 I could generate a pdf with my registration on, and I could view it there.
 I could submit a talk, I could edit this talk, however, I can't view much on the status as I need to add a commercial - 'If you don't add a commercial, the conference commercial will be displayed!' But I can see an orange bar that tells me 'Complete proposal - 2left'.
+
+The Commercials are basically small vids people can add about their talk - for some conferences this is common practice. We should look at whether they can be easily hidden/disabled in future.
+For checking the status, someone will need to log in as an admin and do the Manage Speaker Submission work - i.e. accept and reject some talks - before you're able to check. Talks can be accepted without the full set of info being completed by the speaker. [Steph Locke](https://github.com/stephlocke)
 - **Onconf** I also have the same issue as [bnaras](https://github.com/bnaras). "We're sorry, but something went wrong. If you are the application owner check the logs for more information"
+
+
 
 
 ## Manage attendees
 Issues 34,33,32
 ### Comments from evaluator [@tuxette](https://github.com/tuxette)
-- **Odoo** (DID NOT DO)
+- **Odoo** I can probably monitor sales. I have maybe made a refund (but I'm not sure: the way things are organized is very hard to understand for me: I don't understand the logic). I don't really see how « attendees » and « registered people » (who are listed in sales) are connected. So I can send an email to them but I am not sure that I am able to send a collective emails to all attendees or to all registered people, which is a limit.
+Overall, the organization of the website is very hard to understand and overly sophisticated.
 - **Osem** - It seems that sales have already been monitored and that some people are already registered. But I cannot edit these already sold tickets. They are all free tickets so I cannot issue a refund (but it is as if tickets were not editable: when I click on "show" I just have a blank page).
 I don't see a tool to send emails to registered people but you can easily export the email list into CSV format so this is not really an issue (it can be done manually easily).
 - **Oconf** - *I don't think that registration is covered by this program. I've searched and did not find any place where tickets can be configured and sold. The documentation says:
@@ -137,7 +146,8 @@ Issues 28,27,26
 
 #### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
 - **Odoo** - After one hour of attempting and trying i could not find how to do this. Not great ease and due to time it had already taken, opted to stop as nothing should take *that* long. 
-- **Osem** - 
+I believe I have found how related to issue #25.
+- **Osem** - N/A
 - **Oconf** I was unable to find any submissions to review, however, I read the documentation that states we should be able to do this. "Administrators can set deadlines for accepting proposals for events
 Administrators can export proposals and comments to CSV
 Administrators can update/delete any proposal
@@ -155,6 +165,12 @@ Issues 25,24,23
      + Can't configure CFP details 
      + Can't add CFP content like FAQs  
      + Can't customise form
+     UPDATE
+     I was finally able to
++ can Define any tracks / categories required
++ can Configure CFP details (after I changed the conference dates)
++ can't Add CFP content like FAQs Customise form
++ can't Customise form
 - **Oconf** - can define any tracks / categories required  
     + (unsure) Configure CFP details (maybe I did it but I was not able to check: I did not find where it appears on the public website 
     + Can't Add CFP content like FAQs 
