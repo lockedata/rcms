@@ -26,13 +26,13 @@ Based on these results, OSEM, OCS, and Odoo were shortlisted for in-depth evalua
 | Functionality                          | Odoo        | Osem        | Oconf       |
 |----------------------------------------|:-----------:|:-----------:|:-----------:|
 | Manage registration                    | success     | success     | fail        |
-| Register                               | success     | fail        | fail        |
+| Register                               | success     | success     | fail        |
 | Build agenda                           | success     | success     | success     |
 | Submit talks                           | success     | success     | fail        |
-| Manage attendees                       | success     | fail        | fail        |
+| Manage attendees                       | success     | success     | fail        |
 | Manage sponsors                        | success     | fail        | fail        |
 | Manage speaker submission              | success     | fail        | fail        |
-| Setup session submission               | success     | fail        | fail        |
+| Setup session submission               | success     | fail 1/2    | fail  1/2   |
 | Setup tickets                          | success     | success     | fail        |
 | Configure conference                   | success     | success     | success     |
 | Customise conference content           | success     | fail        | fail        |
