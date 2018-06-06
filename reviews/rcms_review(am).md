@@ -8,7 +8,7 @@
 | [Manage attendees](#manage-attendees)                       | success | *success*| fail |
 | [Manage sponsors](#manage-sponsors)                        | success | fail | fail        |
 | [Manage speaker submission](#manage-speaker-submission)              | fail | fail | fail |
-| [Setup session submission](#setup-session-submission)              | fail        | fail        | fail        |
+| [Setup session submission](#setup-session-submission)              | *success*        | fail        | fail        |
 | [Setup tickets](#setup-tickets)                          | success     | success      | fail        |
 | [Configure conference](#configure-conference)                   | success     | success     | success    |
 | [Customise conference content](#customise-conference-content)           | success     | fail        | fail        |
@@ -164,6 +164,12 @@ Issues 25,24,23
 This task blocked the downstream task of managing the speaker submission. Needs investigating / remediation and the downstream tasks re-assessed.
 
 - **TODO: [@amymcdougall](https://github.com/Amymcdougall) please investigate configuring cfp ASAP**
+
+#### Comments from second evaluation by [@amymcdougall](https://github.com/Amymcdougall)
+- **Odoo** ![image](https://user-images.githubusercontent.com/33873874/41029404-7e76f90e-6973-11e8-9365-6e70f6be6683.png)
+![image 1](https://user-images.githubusercontent.com/33873874/41029448-93874b00-6973-11e8-8b00-91e1df04d5bc.png)
+
+I believe this is how you do it and have shown Steph also. 
 
 ## Setup tickets
 Issues 22,21,20
