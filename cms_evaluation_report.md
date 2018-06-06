@@ -5,8 +5,8 @@ We have completed the evaluation of the conference management solutions shortlis
 
 In terms of implementation, we would require an Odoo instance per organisation (satRdays, UseR!, etc) for ease and then setup dummy events that can be used for templates, but Odoo system creation is very easy. 
 
-The greatest area of weakness was the call for papers facilities, especially for events looking to use an academic conference workflow.
-It also became clear that some stakeholders were not happy with a single solution, preferring to use their own multi-system stacks. Given a lack of ideal fit in a key workflow and some resistance to a single solution, the decision arising from this evaluation is whether  **Odoo should be adopted and extended OR a generic solution (in Hugo for instance) should be developed with integration for key third party solutions.**
+The greatest area of weakness was the call for papers facilities for events looking to use an academic conference workflow.
+It also became clear that some stakeholders were not happy with a single solution, preferring to use their own multi-system stacks. Given a lack of ideal fit in a key workflow for academic events and some resistance to a single solution, the decision arising from this evaluation is whether  **Odoo should be adopted and extended OR a generic solution (in Hugo for instance) should be developed with integration for key third party solutions.**
 
 
 ## Evaluation results
@@ -25,14 +25,14 @@ Based on these results, OSEM, OCS, and Odoo were shortlisted for in-depth evalua
 
 | Functionality                          | Odoo        | Osem        | Oconf       |
 |----------------------------------------|:-----------:|:-----------:|:-----------:|
-| Manage registration                    | fail        | success     | fail        |
+| Manage registration                    | success     | success     | fail        |
 | Register                               | success     | fail        | fail        |
 | Build agenda                           | success     | success     | success     |
 | Submit talks                           | success     | success     | fail        |
 | Manage attendees                       | success     | fail        | fail        |
 | Manage sponsors                        | success     | fail        | fail        |
-| Manage speaker submission              | fail        | fail        | fail        |
-| Setup session submission               | fail        | fail        | fail        |
+| Manage speaker submission              | success     | fail        | fail        |
+| Setup session submission               | success     | fail        | fail        |
 | Setup tickets                          | success     | success     | fail        |
 | Configure conference                   | success     | success     | success     |
 | Customise conference content           | success     | fail        | fail        |
