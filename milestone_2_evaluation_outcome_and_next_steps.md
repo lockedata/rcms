@@ -10,9 +10,9 @@ We discussed the option of extending Odoo as it was based on Python, but it was 
 The alternative we discussed and will now move forward with is a flexible and minimal solution in Hugo, the basis for blogdown.
 Hugo is a static site generator that use templates to build sites from markdown or JSON and CSV datasets. It is widely adopted in the R community and requires mostly HTML and CSS skills for development.
 
-We also discussed the state of the annual UseR! events. The 2019 event is planning on using the [sciencesconf.org](https://sciencesconf.org) system for delivering their event so no major technical requirements are currently needed until the 2020 event which isn't likely to need work for the next year. The use of the satRdays with the more numerous events to iterate and refine the integrations over the next year, will mean other R events can leverage the solutions developed for satRdays and the technology will be proven by the next UseR! iteration.
+We also discussed the state of the annual UseR! events. The 2019 event is planning on using the [sciencesconf.org](https://sciencesconf.org) system for delivering their event so no major technical requirements are currently needed until the 2020 event which isn't likely to need work for the next year. The use of the satRdays with the more numerous events will allow rapid iteration and refinement of the integrations over the next year. This  will mean other R events can leverage the solutions developed for satRdays and the technology will be proven by the next UseR! iteration.
 
-In terms of how this translates to a revised milestone plan. The original was Milestone 3 Development (USD$13,000) and Milestone 4 Production (USD$3,750). We propose a new structure:
+In terms of how this translates to a revised milestone plan. The original was Milestone 3 Development (USD$13,000) and Milestone 4 Production (USD$3,750). We propose a new structure with the two events milestone's running in parallel:
 
 ## SatRdays (USD$11,000)
 1. (USD$3,000) The development of a satRdays conference template theme
