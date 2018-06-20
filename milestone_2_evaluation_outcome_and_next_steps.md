@@ -22,5 +22,6 @@ In terms of how this translates to a revised milestone plan. The original was Mi
 ## UseR! (USD$5,750)
 4. (USD$1,000) A style guide and mockup of a UseR! Conference page that could be used for customising the look and feel of the 2019 site in sciencesconf and used more heavily in the 2020 conference
 5. (USD$4,750) The development of a Proof of Concept custom CFP workflow based off a previous UseR! Iteration involving Redmine that can be implemented when organisers do not feel existing solutions fit their needs
+
 These smaller deliverables will make up the remainder of the project, and the custom CFP system is likely to be performed by Open Analytics, the organisation who supported the UseR! build previously.
 
